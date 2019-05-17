@@ -6,7 +6,7 @@
 }
 
 body{
-    background:url(/assets/images/interlaced.png)
+    background:url(/interlaced.png)
 }
 /*-------------------Navbar---------------------*/
 .navbar{
@@ -43,39 +43,54 @@ body{
     color:#777777;
 }
 
-/*---------------------Main-----------------------*/
+/*---------------------------Main----------------------*/
 
 .main{
     width:960px;
     background:#fff;
-    margin:auto;
-    box-shadow: 0 1px 4px black;
-    padding:40px;
-    position: relative;
-    top:40px;
-    
+    padding:20px;
+    /* box-shadow: 0 1px 4px black; */
+    border:1px solid #777;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;
 }
-.about-me-header{
-    border-bottom: 1px solid black;
+.main h1{
+    color:#4aaaa5;
     margin-bottom:20px;
 }
 
-.main h1{
-    font-weight: 100;
-    
-}
-.about-content-wrapper{
-    display:flex;
+.line{
+    width:100%;
+    height:1px;
+    background:#777;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
 }
 
-.main img{
-    margin-right:20px;
+.spacing-wrapper{
+    margin-bottom:20px;
 }
-.main p{
-    line-height: 2rem;
-   
+
+label{
+    display:block;
+    margin-bottom:10px;
+    color:#777;
 }
-/*---------------------Footer-----------------------*/
+
+input{
+    width:100%;
+    height:25px;
+}
+
+.large-input-box{
+    width:100%;
+    height:100px;
+    
+}
+
+/*--------------------Footer--------------------*/
 
 .footer{
     width:100%;
@@ -93,3 +108,4 @@ body{
     bottom:-50px;
     font-size: 12px;
 }
+
